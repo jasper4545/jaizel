@@ -16,7 +16,7 @@ img{
   display: flex;
   flex-direction: column;
 }
-.n1, .n2, .n3, .n4, .n5, .n6, .n7, .n8, .n9, .n10, .n11, .n12,.n13,.n14,.n15, .n16{
+.n1, .n2, .n3, .n4, .n5, .n6, .n7, .n8, .n9, .n10, .n11, .n12,.n13,.n14,.n15, .n16, .n17{
   position:relative;
   display:flex;
   width: 100%;
@@ -192,4 +192,32 @@ p{
   color:white;
   text-align:center;
   transform: translateY(280px);
+}
+.n17 p{
+  font-size: 40px;
+  color:white;
+  text-shadow: 0 0 10px skyblue, -5px 5px 10px blue;
+  text-align: center;
+  transform: translateY(300px);
+  line-height: 80px;
+}
+span{
+  font-size: 60px;
+  text-shadow: 0 0 10px pink, -5px 5px 10px red;
+}
+.n .btn{
+  position: absolute;
+  width: 300px;
+  height: 100px;
+  color:white;
+  font-size: 40px;
+  background: transparent;
+  border: 5px solid pink;
+  border-radius: 10px;
+  text-transform: capitalize;
+  font-family: monospace;
+}
+.btn:hover{
+  border: 5px solid blue;
+  background: black;
 }
